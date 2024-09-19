@@ -1,5 +1,3 @@
-Sure! Here’s a sample `README.md` file for your pharmacy web application:
-
 ````markdown
 # Pharmacy Web Application
 
