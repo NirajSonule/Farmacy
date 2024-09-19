@@ -1,0 +1,71 @@
+img {
+    height: 300px;
+    object-fit: cover;
+}
+
+.product-summary {
+    padding: 24px;
+}
+
+
+.detail-container {
+    padding-bottom: 10px;
+}
+
+.product-name {
+    font-size: 36px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .hospital-name {
+        font-size: 24px;
+    }
+}
+
+.hospital-address {
+    color: #6f6f6f;
+    font-size: 16px;
+    padding-bottom: 5px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.price {
+    font-size: 24px;
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+.price-text {
+    font-size: 24px;
+    font-weight: lighter;
+    padding-right: 10px;
+}
+
+@media (max-width: 768px) {
+    .price {
+        font-size: 18px;
+    }
+}
+
+.price-unit {
+    color: #788190;
+    font-size: 16px;
+}
+
+.button-container .btn {
+    font-size: 14px;
+    border-radius: 0px;
+    width: 140px;
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .hospital-amenities .row>div {
+        padding-bottom: 24px;
+    }
+}

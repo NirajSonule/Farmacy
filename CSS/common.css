@@ -1,0 +1,117 @@
+/*-------------------------------------------------------------------------
+Fonts Setup
+-------------------------------------------------------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&display=swap');
+
+/*-------------------------------------------------------------------------
+Color Setup
+-------------------------------------------------------------------------*/
+:root{
+    --primary: #3155E7;
+    --primary-dark: #2045D6;
+    --black: #010101;
+    --gray-1: #788190;
+    --gray-2: #D3D4DB;
+    --white: #FFFFFF;
+    --body: #FEFEFE;
+}
+
+body{
+    font-family: "plus Jakarta Sans", sans-serif;
+    background-color: var(--body);
+}
+
+*-------------------------------------------------------------------------
+Button
+-------------------------------------------------------------------------*/
+.btn{
+    border-radius: 8px;
+}
+
+.btn-primary,
+.btn-outline-secondary{
+    padding: 12px 20px;
+}
+
+.btn-primary{
+    background-color: var(--primary);
+}
+
+.btn-primary:hover{
+    background-color: var(--primary-dark);
+}
+
+.btn-outline-secondary{
+    border: solid 1px var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:hover{
+    background-color: var(--gray-2);
+    border: solid 1px var(--gray-2);
+    color: var(--black);
+}
+
+.btn-outline-secondary:focus{
+    background-color: var(--gray-2);
+    border: solid 1px var(--gray-2);
+    color: var(--black);
+}
+
+/*-------------------------------------------------------------------------
+Navbar
+-------------------------------------------------------------------------*/
+.navbar{
+    padding: 32px 0;
+}
+
+.logo{
+    height: 60px;
+}
+
+.nav-link{
+    margin-left: 41px;
+    font-size: 16px;
+    color: var(--gray-1);
+}
+
+/*-------------------------------------------------------------------------
+Footer Section
+-------------------------------------------------------------------------*/
+.footer{
+    padding: 80px 0 0 0;
+}
+
+.footer-link{
+    margin-left: 41px;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.second-container{
+    padding: 15px 0 0 0;
+}
+
+.footer-hl{
+    border-top: 2px solid var(--gray-1);
+    margin-bottom: 15px;
+}
+
+#loading {
+    display: none;
+    background-color: #666666;
+    background-image: url("Img/progress_spinner.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0.4;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 10000000;
+}
+
+a{
+    text-decoration: none;
+}
